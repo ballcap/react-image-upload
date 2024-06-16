@@ -1,0 +1,30 @@
+footer {
+    display: flex;
+    flex-direction: row;
+    background: #121212;
+    padding: 6rem 0;
+    width: 100%;
+    color: #a7a7a7;
+}
+
+footer * { flex: 1; }
+
+footer div div { margin: 2rem; }
+
+footer div div a {
+    text-decoration: none;
+    color: #3ff;
+}
+
+footer div div a:hover { text-decoration: underline; }
+
+footer div h1 { margin: 10rem auto 7rem auto; }
+
+.left {
+    text-align: left;
+    margin: auto;
+}
+
+@media (max-width: 720px) {
+    footer { display: block; }
+}
